@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.bio{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.bio p{
+    color:white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.bio h2{
+    font-family: "Angel wish";
+    color:rgb(181, 0, 0);
+    font-size:337%;
+}
+
+.tour-dates {
+    margin: 1px;
+    padding: 10px;
+    background-color: rgb(168, 36, 36);
+    color: black;
+    font-size:24px;
+    max-height: 700px;
+}
+
+.tour-dates h2{
+    position: relative;
+    font-family: "Angel wish";
+    color:black;
+    font-size:40px;
+    right: -45px;
+}
+
+.tour-dates img{
+    height: 250px;
+    position:relative;
+    left: 1100px;
+    top: -47px;
+    width: 22%;
+    height:23% ;
+}
+
+.tour-dates::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.contact{
+    margin: 1px;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    position:relative;
+    top: -100px;
+}
+
+.contact p{
+    font-family:"Angel wish";
+    font-size: 70px;
+    color:rgb(181, 0, 0);
+    transform: translate(0,60%);
+    
+              
+}
+
+.discography{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.discography h2{
+    color:rgb(181, 0, 0);
+    font-family:"Angel wish";
+    font-size: 45px;
+    position: relative;
+    right: 5%;
+ 
+    
+
+}
+ .discography h3{
+    position: relative;
+    right: 337%;
+    top: -10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.discography h4{
+    position: relative;
+    right: 494%;
+    top:-10%
+
+}
+
+.discography h5{
+    position: relative;
+    right: 133%;
+    top: -25%;
+    font-size: 15px;
+
+
+}
+
+.discography img {
+    height:310px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.discography img:hover {
+    transform: scale(1.1); 
+    z-index: 10;
+}
+
+.album {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.album div img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.album div img:hover {
+    transform: scale(1.1); 
+    z-index: 10; 
+}
+a:visited {
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: -20px;
+    font-family: "Angel wish";
+    font-size: 25px;
+    clear: both; 
+}
+ .pt2{
+    position:relative;
+    top:-488px
+ }
+    
+
+
+
+
+
